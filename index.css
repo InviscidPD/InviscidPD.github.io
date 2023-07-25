@@ -46,10 +46,11 @@ header table {
     width:100%;
 }
 #logo {
-    width:20%;
+    width:50%;
+
 }
 #navigation {
-    width:80%;
+    width:50%;
 }
 #magnify {
     width:100vw;
@@ -79,20 +80,23 @@ header table {
     background-size:contain !important;
     background-repeat:no-repeat !important;
     margin:0px auto;
+	
 }
 #logo {
     font-size:24px;
     color:rgb(255, 44, 90);
+
 }
 #navigation {
-    text-align:right;
+    text-align:center;
+	vertical-align:bottom;
 }
 #navigation a {
     color:inherit;
     text-decoration:none;
-    padding:5px 10px;
+    padding:5px 20px;
     border-bottom:2px solid transparent;
-    margin-left:4vw;
+/*     margin-left:4vw; */
     transition:0.4s ease-in-out;
 }
 #navigation a:hover{
@@ -303,7 +307,7 @@ button:focus {
     background: rgba(0, 0, 0,0.8); 
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1200px){
     #photos {
     columns:1;
     column-gap:0%;
