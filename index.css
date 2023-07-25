@@ -47,7 +47,6 @@ header table {
 }
 #logo {
     width:50%;
-
 }
 #navigation {
     width:50%;
@@ -111,15 +110,15 @@ header table {
 }
 #about {
     width:84% !important;
-    height:95vh;
+    height:80vh;
     display:flex;
     flex-direction:column;
-    justify-content:center;
+    justify-content:flex-end;
     text-align:left;
     padding:0px 8%;
 }
 #about h1 {
-    font-size:45px;
+    font-size:35px;
     word-wrap:break-word;
 }
 #about table {
@@ -342,6 +341,7 @@ button:focus {
     }
     #about table tr td {
         text-align:center;
+		
     }
     .btn_one {
     padding:6px 30px;
