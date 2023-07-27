@@ -1,5 +1,6 @@
-var width = $(window).width(); 
+
 window.onscroll = function(){
+	var width = $(window).width(); 
 if ((width >= 1000)){
     if(document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
         $("#header").css("background","#fff");

@@ -110,7 +110,7 @@ header table {
 }
 #about {
     width:84% !important;
-    height:80vh;
+    height:550px;
     display:flex;
     flex-direction:column;
     justify-content:flex-end;
