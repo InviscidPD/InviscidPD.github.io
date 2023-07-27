@@ -1,12 +1,13 @@
 
 window.onscroll = function(){
 	var width = $(window).width(); 
-if ((width >= 1000)){
+if ((width >= 1)){
     if(document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
         $("#header").css("background","#fff");
         $("#header").css("color","#000");
         $("#header").css("box-shadow","0px 0px 20px rgba(0,0,0,0.09)");
-        $("#header").css("padding","4vh 4vw");
+        $("#header").css("padding","2vh 4vw");
+		$("#logo img").css("width","45px");
         $("#navigation a").hover(function(){
             $(this).css("border-bottom","2px solid rgb(255, 44, 90)");
         },function(){
@@ -17,6 +18,7 @@ if ((width >= 1000)){
         $("#header").css("color","#fff");
         $("#header").css("box-shadow","0px 0px 0px rgba(0,0,0,0)");
         $("#header").css("padding","6vh 4vw");
+		$("#logo img").css("width","90px");
         $("#navigation a").hover(function(){
             $(this).css("border-bottom","2px solid #fff");
         },function(){

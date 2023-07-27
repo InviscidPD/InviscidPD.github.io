@@ -45,6 +45,7 @@ header {
 header table {
     width:100%;
 }
+
 #logo {
     width:50%;
 }
@@ -84,8 +85,12 @@ header table {
 #logo {
     font-size:24px;
     color:rgb(255, 44, 90);
-
 }
+
+#logo img {
+	width:90px;
+}
+
 #navigation {
     text-align:center;
 	vertical-align:bottom;
@@ -306,7 +311,8 @@ button:focus {
     background: rgba(0, 0, 0,0.8); 
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1000px){
+	
     #photos {
     columns:1;
     column-gap:0%;
@@ -381,15 +387,25 @@ button:focus {
         width:96vw;
         background:#fff;
         padding:4vh 2vw;
-        position:absolute;
+        position:fixed;
     }
-    #header table tr td {
+/*     #header tr td  {
         width:100%;
         display:block;
         text-align:center;
         padding:15px 0px;
-    }
+    } */
+	
+	#logo{
+		width: 10%;
+	}
+	
+	#logo img {
+		width: 30px;
+	}
+
     #navigation a {
         color:#000;
     }
+	
 }
