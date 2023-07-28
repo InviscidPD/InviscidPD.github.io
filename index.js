@@ -18,7 +18,7 @@ $(window).on("scroll", function() {
                 $(this).css("border-bottom", "2px solid transparent");
             });
         } else {
-            $("#header").css("background", "transparent");
+            $("#header").css("background", "#0000000f");
             $("#header").css("color", "#fff");
             $("#header").css("box-shadow", "0px 0px 0px rgba(0,0,0,0)");
             $("#header").css("padding", "6vh 4vw");
