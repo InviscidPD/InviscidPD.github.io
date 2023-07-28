@@ -92,11 +92,14 @@ header table {
 }
 
 #logo img {
-	width:90px;
+	/*width:90px; */
+
+    width: 90px;
+    vertical-align: middle;
 }
 
 #navigation {
-    text-align:center;
+    text-align:right;
 	vertical-align:bottom;
 }
 #navigation a {
@@ -318,7 +321,18 @@ button:focus {
 
 @media (max-width: 800px){
 	
+	#navigation {
+    text-align:center;
+	vertical-align:middle;
+}
+	#navigation a{
+		vertical-align:middle;
+	}
 	
+	#about {
+
+    height:3000px;
+}
 	
     #photos {
     columns:1;
