@@ -85,11 +85,11 @@ body {
     width:60%;
 }
 #about {
-    width:84% !important;
+    width:60% !important;
     height:300px;
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-end;
+    /* display:flex; */
+    /* flex-direction:column; */
+    /* justify-content:flex-end; */
     text-align:left;
     padding:0px 8%;
 }
@@ -357,12 +357,7 @@ button:focus {
     #contact h1 {
         width:33%;
     }
-    header {
-        width:96vw;
-        background:#fff;
-        padding:4vh 2vw;
-        position:fixed;
-    }
+
 
 	#logo{
 		width: 6%;
