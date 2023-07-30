@@ -3,38 +3,28 @@ $(window).on("scroll", function() {
     // Get the current window width
     var width = $(window).width();
   
-    if (width >= 1) {
+    if (width > 800) {
         if ($(document).scrollTop() > 40) {
-            $("#header").css("background", "#fff");
-            $("#header").css("color", "#000");
-            $("#header").css("box-shadow", "0px 0px 20px rgba(0,0,0,0.09)");
-            $("#header").css("padding", "1vh 4vw");
-			$("#navigation").css("vertical-align", "middle");
-            $("#logo img").css("width", "10px");
-            $("#logo img").attr("src", "images/Logo/Small.svg"); // Corrected image source change
-            $("#navigation a").hover(function() {
-                $(this).css("border-bottom", "2px solid rgb(255, 44, 90)");
-            }, function() {
-                $(this).css("border-bottom", "2px solid transparent");
-            });
+
+
+            
         } else {
-            $("#header").css("background", "#0000000f");
-            $("#header").css("color", "#fff");
-            $("#header").css("box-shadow", "0px 0px 0px rgba(0,0,0,0)");
-            $("#header").css("padding", "6vh 4vw");
-			$("#navigation").css("vertical-align", "bottom");
-            $("#logo img").css("width", "90px");
-            $("#logo img").attr("src", "images/Logo/InviscidLogo.svg"); // Corrected image source change
-            $("#navigation a").hover(function() {
-                $(this).css("border-bottom", "2px solid #fff");
-            }, function() {
-                $(this).css("border-bottom", "2px solid transparent");
-            });
+
+
+
         }
     }
+
 });
 
-
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 
 function magnify(imglink){
     $("#img_here").css("background",`url('${imglink}') center center`);
@@ -75,4 +65,5 @@ $(document).ready(function(){
        } 
       });
   });
+  
   
