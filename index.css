@@ -73,7 +73,7 @@ body {
 }
 #secondaryLogo {
 
-    width: 35px;
+    height: 35px;
     vertical-align: middle;
 }
 
@@ -91,7 +91,7 @@ body {
     /* flex-direction:column; */
     /* justify-content:flex-end; */
     text-align:left;
-    padding:0px 8%;
+    padding:0px 4%;
 }
 #about h1 {
     font-size:35px;
@@ -155,7 +155,7 @@ body {
 #work h2 {
     padding:5px 0px;
     border-bottom:4px solid rgb(255, 44, 90);
-    width:6%;
+    width:15%;
 }
 #photos {
     width:100%;
@@ -428,7 +428,7 @@ button:focus {
  }
  
 #headerDiv {
-		padding-left:3vw;
+		padding-left:4vw;
 		padding-bottom:30px;
 		padding-top:40px;
  }
@@ -443,7 +443,7 @@ button:focus {
 	
 #myTopnav {
 
-	background-color: #b2b2b2f0; /* Change this to the desired background color */
+	background-color: #e3e3e3f0; /* Change this to the desired background color */
 
   }
 		
