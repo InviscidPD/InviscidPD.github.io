@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="620"
+   height="620"
+   version="1.1"
+   id="svg5006"
+   sodipodi:docname="Small2.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata5010">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview5008"
+     showgrid="false"
+     inkscape:zoom="0.59465222"
+     inkscape:cx="180.77793"
+     inkscape:cy="355.67008"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid13218"
+       originx="-84.051541"
+       originy="-235.74477"
+       spacingy="1"
+       spacingx="1"
+       units="px"
+       visible="false" />
+  </sodipodi:namedview>
+  <desc
+     id="desc4815">C:\Users\Jason Zhang\Desktop\Synchronized Folder\Inviscid Group\Branding\Working Preference\LOGO.DXF - scale = 1.000000, origin = (0.000000, 0.000000), method = manual</desc>
+  <defs
+     id="defs4830">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         style="stroke:#000000;stroke-width:0.5"
+         id="path4817" />
+    </marker>
+    <pattern
+       height="8"
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path4820" />
+      <path
+         d="M6 2 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path4822" />
+      <path
+         d="M4 0 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path4824" />
+    </pattern>
+    <symbol
+       id="*Model_Space" />
+    <symbol
+       id="*Paper_Space" />
+    <symbol
+       id="*Paper_Space0" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="0"
+     id="g5004"
+     transform="translate(-84.051539,-235.74477)">
+    <g
+       inkscape:groupmode="layer"
+       id="layer1"
+       inkscape:label="1"
+       transform="matrix(1.8428218,0,0,1.7437438,-64.842545,-111.23418)">
+      <ellipse
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.01183;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:37.7953;stroke-opacity:1;paint-order:stroke markers fill"
+         id="path2"
+         cx="249.01707"
+         cy="376.76346"
+         rx="167.71437"
+         ry="177.27249" />
+    </g>
+    <path
+       id="path5002"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.5832;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 457.21215,377.30689 c -0.004,-6.7604 -5.48527,-12.23876 -12.24567,-12.23876 -6.7604,0 -12.24186,5.47836 -12.24566,12.23876 v 323.28567 c 0,60.86786 -49.34316,110.21102 -110.21103,110.21102 -6.7604,0.005 -12.23876,5.48527 -12.23876,12.24568 0,6.76039 5.47836,12.24185 12.23876,12.24566 74.39406,-1e-5 134.70235,-60.30831 134.70236,-134.70236 z M 310.27103,761.82091 c 0,-6.7604 5.47836,-12.24185 12.23876,-12.24567 27.05239,0 48.98268,-21.93029 48.98268,-48.98268 V 387.10343 c 0,-40.57858 32.89543,-73.47402 73.47401,-73.47402 6.7631,0 12.24566,5.48257 12.24566,12.24567 0,6.7631 -5.48256,12.24567 -12.24566,12.24567 -27.05239,0 -48.98267,21.93029 -48.98267,48.98268 v 313.48913 c -1e-5,40.57858 -32.89544,73.47401 -73.47402,73.47401 -6.7604,-0.005 -12.23876,-5.48527 -12.23876,-12.24566 z m -0.007,-374.71748 c 0,-74.39407 60.3083,-134.70237 134.70236,-134.70237 6.762,0.002 12.24285,5.48368 12.24285,12.24567 0,6.762 -5.48085,12.24411 -12.24285,12.24567 -60.86787,0 -110.21102,49.34315 -110.21102,110.21103 V 710.3891 c -0.005,6.7604 -5.48527,12.23875 -12.24568,12.23875 -6.76039,0 -12.24185,-5.47835 -12.24566,-12.23875 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccscccsccccsccccsccscccscccs" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot13200"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion13202"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Agency FB';-inkscape-font-specification:'Agency FB'"><rect
+           id="rect13204"
+           width="728.15668"
+           height="156.39394"
+           x="62.221241"
+           y="809.73181"
+           style="-inkscape-font-specification:'Agency FB';font-family:'Agency FB';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;" /></flowRegion><flowPara
+         id="flowPara13206" /></flowRoot>
+  </g>
+</svg>

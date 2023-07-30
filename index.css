@@ -73,7 +73,7 @@ body {
 }
 #secondaryLogo {
 
-    width: 9px;
+    width: 35px;
     vertical-align: middle;
 }
 
@@ -446,7 +446,7 @@ button:focus {
 	
 #myTopnav {
 
-	background-color: white; /* Change this to the desired background color */
+	background-color: #b2b2b2f0; /* Change this to the desired background color */
 
   }
 		
