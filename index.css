@@ -305,7 +305,7 @@ button:focus {
 
     }
     #top_part tr td{
-        width:100%;
+        width:94%;
         text-align:center;
     }
     #about {
@@ -316,7 +316,7 @@ button:focus {
         padding:0px 4%;
     }
     #about table {
-        width:100%;
+        width:94%;
         margin-top:6vh;
     }
     #about table tr td {
@@ -336,7 +336,7 @@ button:focus {
         cursor:pointer;
     }
     #contact table tr td {
-        width:100%;
+        width:94%;
         display:block;
     }
     #inner_table tr td{
