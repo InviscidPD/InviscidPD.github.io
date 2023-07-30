@@ -128,7 +128,7 @@ body {
     background:#fff;
     border:3px solid rgb(255, 44, 90);
     padding:8px 40px;
-    width:300px;
+    width:280px;
     border-radius:80px;
     font-weight:bold;
     margin:2vh 0px;
@@ -284,7 +284,7 @@ button:focus {
     background: rgba(0, 0, 0,0.8); 
 }
 
-@media (max-width: 800px){
+@media screen and (max-width: 800px){
 	
 
     #photos {
@@ -325,7 +325,7 @@ button:focus {
     }
     .btn_one {
     padding:6px 10px;
-    width:100%;
+    width:60%;
     margin:4vh auto;
     box-shadow:0px 10px 20px rgba(255, 44, 90, 0.8);
     background:rgb(255, 44, 90);
@@ -432,17 +432,19 @@ button:focus {
 	
  }
  
- 	#headerDiv {
+#headerDiv {
 		padding-left:3vw;
 		padding-bottom:30px;
 		padding-top:40px;
-	}
+ }
+
+
 
 @media screen and (max-width: 800px) {
 	
-	#headerDiv {
+#headerDiv {
 		display:none;
-	}
+}
 	
 #myTopnav {
 
