@@ -9,6 +9,11 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+	
+	    <style>
+
+    </style>
+	<link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
 </head>
 <body>
     <div id="loading">
@@ -20,30 +25,28 @@
     </div>
 	
 	
-    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
-        <table>
-            <tr>
-                <td id="logo" >
-					<img src="images/Logo/InviscidLogo.svg" alt="Logo">
-				</td>
-				
-                <td id="navigation" >
-                    <a href="#work">Services</a>
-                    <a href="#bio">About Us</a>
-                    <a href="#contact">Contact</a>
-                </td>
-				
-            </tr>
-        </table>
-    </header>
+<div id = "headerDiv" class="animated slideInLeft" style="animation-delay:0.8s; border: 0;">
+  <img id = "mainLogo" src="images/Logo/InviscidLogo.svg" alt="Inviscid" >
+</div>
+
+<nav class="topnav" id="myTopnav" >
+
+  <a href="#home" class="secondary"><img id = "secondaryLogo" src="images/Logo/Small2.svg" alt="Logo"></a>
+  
+  <a href="#work" class = "selection">Services</a>
+  <a href="#contact" class = "selection">Contact</a>
+  <a href="#about" class = "selection">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars" style="font-size:32px"></i>
+  </a>
+
+</nav>
 	
-	
-	
-	
+
     <table id="top_part" style="border-collapse: collapse; border-spacing: 0;">
 
         <tr style="padding: 0;">
-            <td id="about" class="animated slideInLeft" style="animation-delay:1.5s; border: 0;" >
+            <td id="about" class="animated slideInLeft" style="animation-delay:0.5s; border: 0;" >
                 <h1>Innovate with ease, excel with precision</h1>
                 <a href="#contact"><button class="btn_one" >Let's build something</button><br></a>
 <!--                 <table>
@@ -56,7 +59,7 @@
                     </tr>
                 </table> -->
             </td>
-            <td id="rightImage" class="animated slideInUp" style="animation-delay:1.5s; border: 0;" ></td>
+            <td id="rightImage" class="animated slideInRight" style="animation-delay:1.5s; border: 0; border-collapse: collapse; border-spacing: 0;" ></td>
         </tr>
 	
     </table>
@@ -66,19 +69,13 @@
 	
     <div id="work">
 
-        <h1>Services</h1>
-<!--         <div id="photos">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547922657-b370d1687eb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549375463-8cbc18ca3f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549366021-9f761d450615?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549309019-a1d77aeae74f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547149666-769b42053e67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547950515-e652d0f50b1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1545342084-d03fe58ea023?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80">
-        </div> -->
+        <h2>Services</h2>
+
     </div>
+	
+	
     <div id="bio">
-        <h1>About us</h1>
+        <h2>About Us</h2>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
@@ -87,6 +84,8 @@
         </p>
     </div>
     <div id="contact">
+	
+	
         <h1>contact</h1>
             <table>
                 <tr>
