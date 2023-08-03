@@ -489,12 +489,22 @@ button:focus {
 
 }
 
+.paragraphContainer {
+  display: flex; /* Use flexbox layout */
+  flex-wrap: wrap; /* Allow wrapping if screen size is 600px or more */
+  margin:0 auto;
+  max-width: 1800px;
+  width: 85vw;
+ 
+}
+
 .box {
   background-color: transparent;
   box-sizing: border-box;
   margin:0;
   /* Divide the container into three equal parts with some margin */
   flex-basis: 33.33%;
+  padding-top:20px;
   
   }
 
