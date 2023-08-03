@@ -34,7 +34,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="0.9983453"
-     inkscape:cx="204.83895"
+     inkscape:cx="204.33812"
      inkscape:cy="220.86547"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
@@ -51,7 +51,7 @@
        shape-rendering="geometricPrecision"
        d="m 784.72383,308.42557 c -10e-4,-2.77074 -2.24804,-5.01596 -5.01866,-5.01596 -2.77061,0 -5.01704,2.24522 -5.01866,5.01596 v 132.49239 c 0,24.94561 -20.22259,45.16848 -45.16847,45.16848 -2.77074,0.002 -5.01596,2.24805 -5.01596,5.01866 0,2.77061 2.24522,5.01704 5.01596,5.01866 30.48872,0 55.20472,-24.71654 55.20472,-55.20472 z M 724.501,466.01126 c 0,-2.77074 2.24522,-5.01704 5.01596,-5.01866 11.08703,0 20.07464,-8.98788 20.07464,-20.07464 V 312.43845 c 0,-16.6304 13.48155,-30.11141 30.11142,-30.11141 2.77182,0 5.01866,2.24691 5.01866,5.01866 0,2.77182 -2.24695,5.01866 -5.01866,5.01866 -11.08703,0 -20.07464,8.98787 -20.07464,20.07463 V 440.9185 c 0,16.63041 -13.48155,30.11142 -30.11142,30.11142 -2.77074,-0.002 -5.01596,-2.24805 -5.01596,-5.01866 z m -0.002,-153.57281 c 0,-30.48872 24.71653,-55.20471 55.20471,-55.20471 2.77129,8.1e-4 5.01758,2.2474 5.01758,5.01866 0,2.77126 -2.24624,5.01812 -5.01758,5.01866 -24.94561,0 -45.16847,20.22259 -45.16847,45.16847 v 132.49239 c -0.002,2.77075 -2.24805,5.01597 -5.01866,5.01597 -2.77075,0 -5.01704,-2.24522 -5.01866,-5.01597 z"
        id="path1"
-       style="fill:#1a1a1a;fill-opacity:1;stroke:#1a1a1a;stroke-width:1.333;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.333;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
     <flowRoot
        fill="#000000"
        font-family="'Agency FB'"
@@ -101,46 +101,46 @@
     <g
        aria-label="INVISCID "
        transform="matrix(0.33156302,0,0,0.33156302,613.25901,236.75265)"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#1a1a1a;stroke-width:2.01068;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2.01068;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        id="flowRoot13208">
       <path
          d="M 146.65885,933.10981 H 132.1862 V 836.3162 h 14.47265 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px;stroke:#1a1a1a;stroke-width:2.01068;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px;stroke:#ffffff;stroke-width:2.01068;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;fill:#ffffff;fill-opacity:1"
          id="path4781"
          inkscape:connector-curvature="0" />
       <path
          d="m 244.21383,933.10981 h -12.67904 l -23.19336,-60.92122 q 0.92774,4.45313 0.92774,6.98893 v 53.93229 H 195.1676 V 836.3162 h 12.67904 L 231.04,896.00044 q -0.92774,-4.45313 -0.92774,-6.98893 V 836.3162 h 14.10157 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px;stroke:#1a1a1a;stroke-width:2.01068;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px;stroke:#ffffff;stroke-width:2.01068;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;fill:#ffffff;fill-opacity:1"
          id="path4783"
          inkscape:connector-curvature="0" />
       <path
          d="m 340.46997,836.3162 -18.55469,96.91731 h -14.4108 L 289.01164,836.3162 h 14.5345 l 10.82357,66.36393 q 0.1237,2.84505 0.37109,8.28776 -0.0618,-2.84506 0.3711,-8.28776 l 10.88541,-66.36393 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px;stroke:#1a1a1a;stroke-width:2.01068;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px;stroke:#ffffff;stroke-width:2.01068;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;fill:#ffffff;fill-opacity:1"
          id="path4785"
          inkscape:connector-curvature="0" />
       <path
          d="M 399.92599,933.10981 H 385.45333 V 836.3162 h 14.47266 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px;stroke:#1a1a1a;stroke-width:2.01068;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px;stroke:#ffffff;stroke-width:2.01068;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;fill:#ffffff;fill-opacity:1"
          id="path4787"
          inkscape:connector-curvature="0" />
       <path
          d="m 494.82146,924.26541 q 0,8.8444 -8.78255,8.8444 h -29.13086 q -8.7207,0 -8.7207,-8.8444 V 901.19575 H 462.66 v 19.72982 h 17.6888 V 901.93794 L 451.34164,874.477 q -3.15429,-3.0306 -3.15429,-7.73112 v -21.52344 q 0,-8.90624 8.7207,-8.90624 h 29.13086 q 8.78255,0 8.78255,8.78255 v 21.64713 H 480.3488 V 848.50044 H 462.66 v 17.50325 l 29.00716,27.33724 q 3.1543,2.96875 3.1543,7.85482 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px;stroke:#1a1a1a;stroke-width:2.01068;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px;stroke:#ffffff;stroke-width:2.01068;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;fill:#ffffff;fill-opacity:1"
          id="path4789"
          inkscape:connector-curvature="0" />
       <path
          d="m 590.45911,924.26541 q 0,8.8444 -8.84441,8.8444 h -30.18229 q -8.597,0 -8.597,-8.8444 v -79.04297 q 0,-8.90624 8.597,-8.90624 h 30.18229 q 8.84441,0 8.84441,8.90624 v 22.63672 H 576.0483 v -19.11132 h -18.74024 v 71.93033 h 18.74024 v -20.3483 h 14.41081 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px;stroke:#1a1a1a;stroke-width:2.01068;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px;stroke:#ffffff;stroke-width:2.01068;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;fill:#ffffff;fill-opacity:1"
          id="path4791"
          inkscape:connector-curvature="0" />
       <path
          d="M 653.19312,933.10981 H 638.72047 V 836.3162 h 14.47265 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px;stroke:#1a1a1a;stroke-width:2.01068;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px;stroke:#ffffff;stroke-width:2.01068;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;fill:#ffffff;fill-opacity:1"
          id="path4793"
          inkscape:connector-curvature="0" />
       <path
          d="m 749.94405,914.86437 q 0,8.53516 -5.07161,13.42122 -5.07162,4.82422 -13.66862,4.82422 H 701.70186 V 836.3162 h 29.50196 q 8.597,0 13.66862,4.94791 5.07161,4.88607 5.07161,13.42123 z m -14.5345,-2.41211 v -55.60221 q 0,-8.10221 -8.47331,-8.10221 h -10.76172 v 71.93033 h 10.39062 q 8.84441,0 8.84441,-8.22591 z"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px;stroke:#1a1a1a;stroke-width:2.01068;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px;stroke:#ffffff;stroke-width:2.01068;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;fill:#ffffff;fill-opacity:1"
          id="path4795"
          inkscape:connector-curvature="0" />
     </g>
