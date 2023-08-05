@@ -17,6 +17,10 @@ body {
 
 }
 
+h2 {
+	font-size:20px;
+}
+
 #mainContent {
 /* 	max-width: 1800px; */
 	margin:0 auto;
@@ -99,6 +103,13 @@ body {
     width: 100vw;
 	z-index:0;
 	overflow: hidden;
+	
+  background-image: url("Abstract3.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 
@@ -158,12 +169,11 @@ margin:0 auto;
     font-family: 'Poppins', sans-serif;
     color:red;
     background:#eeeeee38;
-    border:3px solid red;
+    border:1px solid gray;
     padding:8px 40px;
     width:280px;
     border-radius:80px;
     font-weight:bold;
-    margin:2vh 0px;
     transition:0.4s ease-in-out;
 }
 .btn_one:hover {
@@ -171,6 +181,7 @@ margin:0 auto;
     cursor:pointer;
     color:#fff;
     background:red;
+	border: red;
 }
 #rightImage {
     width:100%;
@@ -200,7 +211,6 @@ margin:0 auto;
 
 #services h2 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(255, 44, 90);
     text-align:left;
 }
 #photos {
@@ -356,9 +366,9 @@ button:focus {
     }
     .btn_one {
     padding:6px 10px;
-    width:60%;
+    width:280px;
     margin:4vh auto;
-    box-shadow:0px 0px 10px rgba(255, 44, 90, 0.8);
+    box-shadow:0px 0px 3px rgba(255, 0, 0, 0.8);
     background:red;;
     color:#fff;
     }
@@ -469,7 +479,7 @@ button:focus {
   flex-wrap: wrap; /* Allow wrapping if screen size is 600px or more */
   margin:0 auto;
   max-width: 1800px;
-  width: 95vw;
+  width: 98vw;
   justify-content: center;
 
 }
@@ -481,14 +491,12 @@ button:focus {
   max-width: 1800px;
   width: 85vw;
 
- 
 }
 
 .box {
   background-color: transparent;
   box-sizing: border-box;
   margin:0;
-  /* Divide the container into three equal parts with some margin */
   flex-basis: 32%;
   padding:15px;
   
@@ -496,10 +504,8 @@ button:focus {
 
 .box .within {
   background-color: #e0e0e0;
-  width:92%;
   box-sizing: border-box;
   border-radius: 8px;
-  margin:0 auto;
   padding:9%;
   /* Divide the container into three equal parts with some margin */
 
