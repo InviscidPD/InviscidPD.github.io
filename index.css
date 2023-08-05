@@ -119,7 +119,7 @@ h2 {
 				/* background-position: center; */
 				/* background-repeat:no-repeat; */
 				/* background-size:cover; */
-				height:350px;
+				height:450px;
 				margin: 0 auto;
 }
 #top_part tr td{
@@ -169,19 +169,19 @@ margin:0 auto;
     font-family: 'Poppins', sans-serif;
     color:red;
     background:#eeeeee38;
-    border:1px solid gray;
     padding:8px 40px;
     width:280px;
     border-radius:80px;
     font-weight:bold;
     transition:0.4s ease-in-out;
+	border:0px;
 }
 .btn_one:hover {
     box-shadow:0px 0px 30px rgba(255, 44, 90, 0.8);
     cursor:pointer;
     color:#fff;
     background:red;
-	border: red;
+
 }
 #rightImage {
     width:100%;
@@ -411,7 +411,7 @@ button:focus {
     width: 100%;
 	z-index: 2;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 
 /* 	box-shadow:0px 5px 5px #00000021; */
 
@@ -431,6 +431,10 @@ button:focus {
 
 
 .topnav .mainBar {
+	display:flex;
+}
+
+.topnav .mainBar .icon {
 	display:none;
 }
 
@@ -439,12 +443,16 @@ button:focus {
 	flex-direction:row;
 	justify-content:flex-end;
 	color: black;
+	align-items: center;
+	  font-weight: bold;
 }
 
 
 .topnav .menuContent a:hover{
-  background-color: red;
-  color: white;
+  background-color: none;
+  color: red;
+  transition: 0s;
+
 }
 
 
@@ -472,6 +480,7 @@ button:focus {
 		max-width: 1750px;
 		width: 88vw;
 		margin: 0 auto;
+		display:none;
  }
 
 .panelContainer {
@@ -537,6 +546,7 @@ button:focus {
 .topnav .menuContent{
 	display: none;
 	flex-direction: column;
+	
 
 }	
   
@@ -557,10 +567,13 @@ text-align:left;
   .topnav.responsive .menuContent{
 	/* float:none; */
     display: flex;
+	align-items: flex-start;
 
   }
 
-
+.topnav .mainBar .icon {
+	display:block;
+}
 
 
 }
