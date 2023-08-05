@@ -423,12 +423,14 @@ button:focus {
   font-size: 17px;
   transition:0.4s ease-in-out;
   color:black;
+  /* height: 100% */
 }
 
 
 
 .topnav .mainBar {
 	display:flex;
+
 }
 
 .topnav .mainBar .icon {
@@ -446,7 +448,6 @@ button:focus {
 
 
 .topnav .menuContent a:hover{
-  background-color: none;
   color: red;
   transition: 0s;
 
@@ -544,6 +545,8 @@ button:focus {
 	justify-content: space-between;
 	align-items: center;
 	background:white;
+	box-shadow: 0px 1px 2px gray;
+	z-index: 3;
 }
 	
 .topnav .menuContent{
