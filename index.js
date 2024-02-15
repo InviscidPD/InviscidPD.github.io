@@ -33,11 +33,10 @@ $(window).on("scroll", function() {
 }); */
 
 window.addEventListener('scroll', function() {
-  let offset = window.pageYOffset;
-  let maxOffset = window.innerHeight*0.1;
+  let offset = window.pageYOffset/window.innerHeight;
   let parallaxContainer = document.querySelector('.parallax-container');
   
-    parallaxContainer.style.backgroundPositionY = -offset * 0.5 + 'px';
+    parallaxContainer.style.backgroundPositionY = -offset * 0.3*window.innerHeight + 'px';
 
 });
 
