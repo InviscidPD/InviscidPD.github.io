@@ -18,7 +18,7 @@ $(window).on("scroll", function() {
 });
 
 
-window.addEventListener('scroll', function() {
+/* window.addEventListener('scroll', function() {
   let offset = window.pageYOffset;
   let maxOffset = window.innerHeight*0.1;
   let parallaxContainer = document.querySelector('.parallax-container');
@@ -30,6 +30,15 @@ window.addEventListener('scroll', function() {
     // Reset background position or do something else when condition is not met
     parallaxContainer.style.backgroundPositionY = -maxOffset * 2 + 'px';
   }
+}); */
+
+window.addEventListener('scroll', function() {
+  let offset = window.pageYOffset;
+  let maxOffset = window.innerHeight*0.1;
+  let parallaxContainer = document.querySelector('.parallax-container');
+  
+    parallaxContainer.style.backgroundPositionY = -offset * 0.5 + 'px';
+
 });
 
 
