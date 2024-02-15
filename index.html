@@ -24,39 +24,35 @@
         <div id="img_here"></div>
     </div>
 	
+	
+	
+	
+	
 <nav class="topnav" id = "myTopnav">
 
   
 	<div class = "mainBar">
  
-		 <a href="#home" class="secondary"><img id = "secondaryLogo" src="images/Logo/Small2.svg" alt="Logo"></a>
+		 <a href="#home" class="secondary"><img id = "secondaryLogo" src="images/Logo/Inviscid.svg" alt="Logo"></a>
   
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 			<i class="fa fa-bars" style="font-size:25px"></i>
 		</a>
-		
 	</div>
   
 	<div class = "menuContent">
 		<a href="#work" class = "selection" onclick="myFunction()">Services</a>
-		<a href="#bio" class = "selection" onclick="myFunction()">About</a>  
-		<a href="#gallery" class = "selection" onclick="myFunction()">Gallery</a>
+		<a href="#gallery" class = "selection" onclick="myFunction()">Work</a>
+	    <a href="#bio" class = "selection" onclick="myFunction()">About</a>  
+	    <a href="#bio" class = "selection" onclick="myFunction()">Network</a>  
 		<a href="#contact" class = "selection" onclick="myFunction()">Contact</a>
-		<a href="#contact" class = "selection" onclick="myFunction()"><i class="fa fa-envelope"></i></a>  
-		
 	</div>
   
-  
-
-
-
 </nav>
 
-<div id = "topSplash">
-		
-<div id = "headerDiv" class="animated slideInTop" style="animation-delay:0.8s; border: 0;">
-  <img id = "mainLogo" src="images/Logo/InviscidLogo.svg" alt="Inviscid" >
-</div>
+
+
+
 
 
 <!-- <video autoplay loop muted class = "backgroundFillVideo" >
@@ -68,12 +64,19 @@
 	
 
 
-    <div id="top_part" style="border-collapse: collapse; border-spacing: 0;">
+    <div class ="parallax-container">
+	
 
-       
+
+
+       <div class="parallax-content"> </div>
+	   
             <div id="about" class="animated slideInLeft" style="animation-delay:0.5s; border: 0;" >
-                <h1>Your ideas, our innovation</h1>
-                <a href="#contact"><button class="btn_one" >Let's build something</button><br></a>
+                <h1>You <font color = "orange">have an idea</font> <br>
+				we can help you <font color = "red">build it</font>
+				</h1>
+
+                <!-- <a href="#contact"><button class="btn_one" >You have an idea, we can build it</button><br></a> -->
 
             </div>
            
@@ -81,7 +84,7 @@
 	
     </div>
 
-</div>	
+
 
 
 
@@ -94,34 +97,75 @@
 
 
 
-<div id = "services" class = "pageSection">
+<div id = "services" class = "pageSection" background = "navy">
 			
-			
-
+<!-- <div id = "serviceTitle"class = "sectionTitle">
+<h3>What we can help with:</h3>
+</div>	 -->	
 			
 <div class = "panelContainer">
 			
   <div class="box">
-  <div class="within">
-    <h2>Technology Development</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed felis eu justo laoreet laoreet. Donec aliquet, urna nec dictum fringilla, arcu velit congue lacus, non sagittis enim libero ac velit. Proin tincidunt sit amet enim eu interdum. Ut pellentesque ut sem ac egestas. Vivamus vel erat ligula. Quisque ullamcorper, mi eu vestibulum aliquam, sapien justo posuere sem, ac lacinia est risus at ipsum.</p>
+  <div class="within" style="background-color:#156082" style="color:white">
+  <img id = "serviceIcon" src="images/icons/TechDev.svg" alt="Logo">
+	<h2 style="text-align:center">Technology Development</h2>
+ 	<p style="color:white">We excel in taking break-through
+science from bench-top to
+instrument by applying robust
+and practical engineering
+solutions</p>
+
+<p>Our lean and efficient
+development approach is
+perfectly suited for early stage
+ventures looking for real world
+results</p>
     <!-- <p>Nulla egestas mauris et enim pharetra cursus. Duis tempus eget ex vitae feugiat. Pellentesque sit amet sapien eget nunc luctus fringilla vel at enim. Fusce nec posuere lorem, a sollicitudin libero. Ut ultricies tincidunt turpis, ac fermentum libero faucibus a. Suspendisse potenti. Phasellus a odio vel justo mollis scelerisque. Curabitur eu lectus a sem fermentum egestas at non ex.</p> -->
 </div> 
  </div>
  
-   <div class="box">
-  <div class="within">
-    <h2>Product Design</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed felis eu justo laoreet laoreet. Donec aliquet, urna nec dictum fringilla, arcu velit congue lacus, non sagittis enim libero ac velit. Proin tincidunt sit amet enim eu interdum. Ut pellentesque ut sem ac egestas. Vivamus vel erat ligula. Quisque ullamcorper, mi eu vestibulum aliquam, sapien justo posuere sem, ac lacinia est risus at ipsum.</p>
+  <div class="box">
+  <div class="within" style="background-color:#e8e8e8" >
+  <img id = "serviceIcon" src="images/icons/ProdDes.svg" alt="Logo">
+    <h2 style="text-align:center"><font color="black">Product Design</font></h2>
+    <p style = "color:black">We are well versed in the process
+of taking a concept all the way to
+production-ready designs
+</p>
+<p style = "color:black">
+With in-house prototyping
+capabilities, progress can be fast
+and efficient</p>
     <!-- <p>Nulla egestas mauris et enim pharetra cursus. Duis tempus eget ex vitae feugiat. Pellentesque sit amet sapien eget nunc luctus fringilla vel at enim. Fusce nec posuere lorem, a sollicitudin libero. Ut ultricies tincidunt turpis, ac fermentum libero faucibus a. Suspendisse potenti. Phasellus a odio vel justo mollis scelerisque. Curabitur eu lectus a sem fermentum egestas at non ex.</p> -->
 </div> 
  </div>
  
-   <div class="box">
-  <div class="within">
-    <h2>Custom Automation</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed felis eu justo laoreet laoreet. Donec aliquet, urna nec dictum fringilla, arcu velit congue lacus, non sagittis enim libero ac velit. Proin tincidunt sit amet enim eu interdum. Ut pellentesque ut sem ac egestas. Vivamus vel erat ligula. Quisque ullamcorper, mi eu vestibulum aliquam, sapien justo posuere sem, ac lacinia est risus at ipsum.</p>
-    <!-- <p>Nulla egestas mauris et enim pharetra cursus. Duis tempus eget ex vitae feugiat. Pellentesque sit amet sapien eget nunc luctus fringilla vel at enim. Fusce nec posuere lorem, a sollicitudin libero. Ut ultricies tincidunt turpis, ac fermentum libero faucibus a. Suspendisse potenti. Phasellus a odio vel justo mollis scelerisque. Curabitur eu lectus a sem fermentum egestas at non ex.</p> -->
+  <div class="box" >
+  <div class="within" style="background-color:#e97132">
+  <img id = "serviceIcon" src="images/icons/FirmSoft.svg" alt="Logo">
+    <h2 style="text-align:center">Software/Firmware</h2>
+    <p>Our software/firmware
+capabilities are honed over
+decades of hands-on product
+development in the biotech
+world</p>
+<p>The result is a seamless
+integration between the code
+and the machine</p><!-- <p>Nulla egestas mauris et enim pharetra cursus. Duis tempus eget ex vitae feugiat. Pellentesque sit amet sapien eget nunc luctus fringilla vel at enim. Fusce nec posuere lorem, a sollicitudin libero. Ut ultricies tincidunt turpis, ac fermentum libero faucibus a. Suspendisse potenti. Phasellus a odio vel justo mollis scelerisque. Curabitur eu lectus a sem fermentum egestas at non ex.</p> -->
+</div> 
+ </div>
+ 
+  <div class="box">
+  <div class="within" style="background-color:#404040">
+  <img id = "serviceIcon" src="images/icons/MFG.svg" alt="Logo">
+    <h2 style="text-align:center">Transfer to manufacturing</h2>
+   <p>We are battle-hardened by the
+challenges of transferring designs to
+manufacturers, whether that’s
+overseas or domestic</p>
+<p>Our established network of
+trusted vendors ensures your
+successful product debut</p><!-- <p>Nulla egestas mauris et enim pharetra cursus. Duis tempus eget ex vitae feugiat. Pellentesque sit amet sapien eget nunc luctus fringilla vel at enim. Fusce nec posuere lorem, a sollicitudin libero. Ut ultricies tincidunt turpis, ac fermentum libero faucibus a. Suspendisse potenti. Phasellus a odio vel justo mollis scelerisque. Curabitur eu lectus a sem fermentum egestas at non ex.</p> -->
 </div> 
  </div>
 
@@ -130,17 +174,85 @@
 
 
  </div>
+ 
+
+<!-- <div id="whoAreWe">
+
+<p>We are a boutique consultancy  specializing in product development in the biotech field. We are passionate engineers and makers with decades of industry experience designing medical devices, instruments, and consumables.
+
+When necessary, we can also draw upon our diverse network of talents to secure your project’s success
+</p>
+
+</div> -->
+
+
+
+
+ <div class="workRow">    
+ 
+     <div class="workContainer">
+        <img src="images/work/Wondfo.jpg" alt="Image" class="workImage">
+        <div class="workOverlay">
+            <h2>Title Here</h2>
+            <p>Description Here</p>
+        </div>
+    </div>
 	
-<div id = "bio" class = "pageSection">
-	<div class = "paragraphContainer">
-        <h2>About Us</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-	</div>
+ <div class="workContainer">
+        <img src="images/work/ERC3.jpg" alt="Image" class="workImage">
+        <div class="workOverlay">
+            <h2>Title Here</h2>
+            <p>Description Here</p>
+        </div>
+    </div>
+    <div class="workContainer">
+        <img src="images/work/Edwards.jpg" alt="Image" class="workImage">
+        <div class="workOverlay">
+            <h2>Title Here</h2>
+            <p>Description Here</p>
+        </div>
+    </div>
+
+
+</div>
+	
+ <div class="workRow">
+    <div class="workContainer">
+        <img src="images/work/SKB.jpg" alt="Image" class="workImage">
+        <div class="workOverlay">
+            <h2>Title Here</h2>
+            <p>Description Here</p>
+        </div>
+    </div>
+    <div class="workContainer">
+        <img src="images/work/Wondfo.jpg" alt="Image" class="workImage">
+        <div class="workOverlay">
+            <h2>Title Here</h2>
+            <p>Description Here</p>
+        </div>
+    </div>
+    <div class="workContainer">
+        <img src="images/work/Smardii.jpg" alt="Image" class="workImage">
+        <div class="workOverlay">
+            <h2>Title Here</h2>
+            <p>Description Here</p>
+        </div>
+    </div>
+</div>
+	
+	
+	
+	
+	
+	
+	
+<div id = "intro" class = "pageSection">
+
+<div id = "aboutTitle"class = "sectionTitle">
+<h3>Who we are:</h3>
+</div>	
+
+
 </div>
 
     <div id="contact">

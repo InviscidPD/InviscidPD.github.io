@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inviscid Product Development</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+	
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+	
+<nav class="topnav" id = "myTopnav">
+
+  
+	<div class = "mainBar">
+ 
+		 <a href="#home" class="secondary"><img id = "secondaryLogo" src="images/Logo/Inviscid.svg" alt="Logo"></a>
+  
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars" style="font-size:25px"></i>
+		</a>
+		
+	</div>
+  
+	<div class = "menuContent">
+		<a href="#work" class = "selection" onclick="myFunction()">Services</a>
+		<a href="#bio" class = "selection" onclick="myFunction()">About</a>  
+		<a href="#gallery" class = "selection" onclick="myFunction()">Work</a>
+		<a href="#contact" class = "selection" onclick="myFunction()">Contact</a>
+		<a href="#contact" class = "selection" onclick="myFunction()"><i class="fa fa-envelope"></i></a>  
+		
+	</div>
+  
+  
+
+
+
+</nav>
+
+<div id = "topSplash">
+		
+<div id = "headerDiv" class="animated slideInTop" style="animation-delay:0.8s; border: 0;">
+  <img id = "mainLogo" src="images/Logo/InviscidLogo.svg" alt="Inviscid" >
+</div>
+
+
+<!-- <video autoplay loop muted class = "backgroundFillVideo" >
+            <source src="Cloud2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+</video> -->
+		
+
+	
+
+
+    <div id="top_part" style="border-collapse: collapse; border-spacing: 0;">
+
+       
+            <div id="about" class="animated slideInLeft" style="animation-delay:0.5s; border: 0;" >
+                <h1>Technology Development <br>
+				Product Design<br>
+				Prototyping
+				Product Launch Support</h1>
+
+                <a href="#contact"><button class="btn_one" >Let's build something</button><br></a>
+
+            </div>
+           
+      
+	
+    </div>
+
+</div>	
+
+
+
+
+
+	
+<div id="mainContent">	
+
+
+
+
+
+<div id = "services" class = "pageSection" background = "navy">
+			
+			
+
+			
+<div class = "panelContainer">
+			
+  <div class="box">
+  <div class="within" style="background-color:#156082" style="color:white">
+  <img id = "serviceIcon" src="images/icons/TechDev.svg" alt="Logo">
+    <h2 ><font color="white">Technology Development</font></h2>
+    <p style="color:white">We excel in taking break-through
+science from bench-top to
+instrument by applying robust
+and practical engineering
+solutions
+Our lean and efficient
+development approach is
+perfectly suited for early stage
+ventures looking for real world
+results</p>
+    <!-- <p>Nulla egestas mauris et enim pharetra cursus. Duis tempus eget ex vitae feugiat. Pellentesque sit amet sapien eget nunc luctus fringilla vel at enim. Fusce nec posuere lorem, a sollicitudin libero. Ut ultricies tincidunt turpis, ac fermentum libero faucibus a. Suspendisse potenti. Phasellus a odio vel justo mollis scelerisque. Curabitur eu lectus a sem fermentum egestas at non ex.</p> -->
+</div> 
+ </div>
+ 
+  <div class="box">
+  <div class="within" style="background-color:#e8e8e8" >
+  <img id = "serviceIcon" src="images/icons/ProdDes.svg" alt="Logo">
+    <h2><font color="black">Product Design</font></h2>
+    <p style = "color:black">We are well versed in the process
+of taking a concept all the way to
+production-ready designs
+With in-house prototyping
+capabilities, progress can be fast
+and efficient</p>
+    <!-- <p>Nulla egestas mauris et enim pharetra cursus. Duis tempus eget ex vitae feugiat. Pellentesque sit amet sapien eget nunc luctus fringilla vel at enim. Fusce nec posuere lorem, a sollicitudin libero. Ut ultricies tincidunt turpis, ac fermentum libero faucibus a. Suspendisse potenti. Phasellus a odio vel justo mollis scelerisque. Curabitur eu lectus a sem fermentum egestas at non ex.</p> -->
+</div> 
+ </div>
+ 
+  <div class="box" >
+  <div class="within" style="background-color:#e97132">
+  <img id = "serviceIcon" src="images/icons/FirmSoft.svg" alt="Logo">
+    <h2>Software/Firmware</h2>
+    <p>Our software/firmware
+capabilities are honed over
+decades of hands-on product
+development in the biotech
+world
+The result is a seamless
+integration between the code
+and the machine</p><!-- <p>Nulla egestas mauris et enim pharetra cursus. Duis tempus eget ex vitae feugiat. Pellentesque sit amet sapien eget nunc luctus fringilla vel at enim. Fusce nec posuere lorem, a sollicitudin libero. Ut ultricies tincidunt turpis, ac fermentum libero faucibus a. Suspendisse potenti. Phasellus a odio vel justo mollis scelerisque. Curabitur eu lectus a sem fermentum egestas at non ex.</p> -->
+</div> 
+ </div>
+ 
+  <div class="box">
+  <div class="within" style="background-color:#404040">
+  <img id = "serviceIcon" src="images/icons/MFG.svg" alt="Logo">
+    <h2>Transfer to manufacturing</h2>
+   <p>We are battle-hardened by the
+challenges that could arise
+from transferring designs to
+manufacturers, whether that’s
+overseas or domestic
+Our established network of
+trusted vendors ensures your
+successful product debut</p><!-- <p>Nulla egestas mauris et enim pharetra cursus. Duis tempus eget ex vitae feugiat. Pellentesque sit amet sapien eget nunc luctus fringilla vel at enim. Fusce nec posuere lorem, a sollicitudin libero. Ut ultricies tincidunt turpis, ac fermentum libero faucibus a. Suspendisse potenti. Phasellus a odio vel justo mollis scelerisque. Curabitur eu lectus a sem fermentum egestas at non ex.</p> -->
+</div> 
+ </div>
+
+
+</div>
+
+
+ </div>
+	
+<div id = "bio" class = "pageSection">
+	<div class = "paragraphContainer">
+        <h2>About Us</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+	</div>
+</div>
+
+    <div id="contact">
+	
+	
+        <h1>contact</h1>
+            <table>
+                <tr>
+                    <td>
+                        <div id="inner_div">
+                            <table id="inner_table">
+       
+                                <tr>
+                                    <td><i class="fas fa-at"></i> &nbsp; Info@InviscidPD.com</td>
+                                </tr>
+     
+                                <tr>
+                                    <td><i class="fas fa-map-marker-alt"></i>
+                                    <div id="address">
+                                      
+                                        San Diego CA<br>
+                                    
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="social"><i class="fab fa-facebook"></i></a>
+                                        <a class="social"><i class="fab fa-twitter"></i></a>
+                                        <a class="social"><i class="fab fa-instagram"></i></a>
+                                        <a class="social"><i class="fab fa-dribbble"></i></a>
+                                        <a class="social"><i class="fab fa-medium"></i></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                    <td>
+     
+                    </td>
+                </tr>
+            </table>
+    </div>
+
+    <script src="index.js" type="text/javascript"></script>
+	</div>
+	</body>
+</html>

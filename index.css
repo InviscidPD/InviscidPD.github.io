@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 
 body {
     width:100vw;
@@ -10,7 +9,7 @@ body {
     overflow-x:hidden;
     scroll-behavior: smooth;
 	
-	font-family: century-gothic, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	background-color:white;
@@ -20,6 +19,7 @@ body {
 h2 {
 	font-size:20px;
 }
+
 
 #mainContent {
 /* 	max-width: 1800px; */
@@ -92,11 +92,20 @@ h2 {
 }
 #secondaryLogo {
 
-    height: 40px;
+    height: 20px;
     vertical-align: middle;
+	margin-left: 20px;
+	margin-top:0px;
 }
 
-#topSplash {
+#serviceIcon {
+
+    height: 60px;
+	width: 100%;
+    margin:0 auto;
+}
+
+/* #topSplash {
 	position: relative;
     top: 0;
 	bottom:0;
@@ -104,38 +113,63 @@ h2 {
 	z-index:0;
 	overflow: hidden;
 	
-  background-image: url("images/Logo/OrangeWaterHeavy.JPG");
+  background-image: url("images/AiImageWide2.jpg");
   background-color: #cccccc;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100vw;
   position: relative;
-}
+} */
 
 
-#top_part {
-    max-width:1200px;
+.parallax-container {
+/*     max-width:95vw;
 			    /* background-image: url("background.JPG"); */
 				/* background-position: center; */
 				/* background-repeat:no-repeat; */
 				/* background-size:cover; */
-				height:450px;
+/* height:550px;
 display: flex;
-width:100vw;
+width:100vw;  */
+
+/*testing code*/
+  background-image: url('images/AiImageWide2.jpg');
+  background-size: 100vw;
+  background-attachment: fixed;
+  background-position: center top;
+  position: relative; 
+  height:60vh;  /*change to ratio when needed*/
 				
 }
 
+.parallax-content {
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  
+}
+
+
 #about {
-	width:60%;
+	width:100vw;
     margin:0 auto;
     display:flex;
     flex-direction:column;
-    justify-content: center;
+    justify-content: left;
+	padding-top:100px;
+	padding-left:40px;
+
 
 
 }
 #about h1 {
     font-size:30px;
+	color:white;
+	padding-bottom:10px;
     word-wrap:break-word;
 }
 #about table {
@@ -147,6 +181,25 @@ width:100vw;
     width:20% !important;
     text-align:left;
 }
+
+
+.sectionTitle {
+	display: flex;
+	height:55px;
+	background-color: light-gray ;
+	margin-top:0;
+	flex-direction:column;
+	justify-content: flex-end;
+}
+
+.sectionTitle h3{
+	font-size:30px;
+	padding-left:30px;
+	padding-bottom:4px;
+	color:rgba(169, 172, 182);
+	margin:0;
+}
+
 .social {
     color:rgb(255, 44, 90);
     font-size:23px;
@@ -166,10 +219,10 @@ width:100vw;
 .btn_one {
     font-size:18px;
     font-family: 'Poppins', sans-serif;
-    color:red;
+    color:black;
     background:#eeeeee38;
     padding:8px 40px;
-    width:280px;
+    width:500px;
     border-radius:80px;
     font-weight:bold;
     transition:0.4s ease-in-out;
@@ -207,11 +260,16 @@ width:100vw;
 
 #services {
 	background: white;
+	padding:0 0;
 }
 
 #services h2 {
     padding:5px 0px;
     text-align:left;
+}
+
+#serviceTitle {
+    margin: 0 auto;
 }
 #photos {
     width:100%;
@@ -408,7 +466,7 @@ button:focus {
 	z-index: 2;
 	display: flex;
 	justify-content: space-between;
-	box-shadow: 0px 1px 1px gray;
+	/* box-shadow: 0px 1px 1px gray; */
 
 /* 	box-shadow:0px 5px 5px #00000021; */
 
@@ -443,7 +501,8 @@ button:focus {
 	justify-content:flex-end;
 	color: black;
 	align-items: center;
-	  font-weight: bold;
+
+	  padding-bottom:3px;
 }
 
 
@@ -485,8 +544,8 @@ button:focus {
   display: flex; /* Use flexbox layout */
   flex-wrap: wrap; /* Allow wrapping if screen size is 600px or more */
   margin:0 auto;
-  max-width: 1800px;
-  width: 98vw;
+  /* max-width: 1800px;*/
+  width: 100vw;
   justify-content: center;
 
 }
@@ -504,89 +563,133 @@ button:focus {
   background-color: transparent;
   box-sizing: border-box;
   margin:0;
-  flex-basis: 32%;
-  padding:15px;
+  flex-basis: 25%;
+  padding:0;
+  height:400px;
   
   }
 
 .box .within {
-  background-color: #e0e0e0;
   box-sizing: border-box;
-  border-radius: 8px;
-  padding:9%;
+  border-radius: 0px;
+  padding:12%;
+  height: 100%;
+  color:white;
+ 
   /* Divide the container into three equal parts with some margin */
 
   }
-
-.box .within:hover {
-  background-color: yellow;
-  box-sizing: border-box;
-  border-radius: 8px;
-  padding:9%;
-  /* Divide the container into three equal parts with some margin */
-
+  
+  .box.within h1{
+  text-align:Center;
   }
+  
+  
+  /*work section*/
+ 
+    .workRow {
+        display: flex;
+        width: 100%;
+        height:100%;
+    }
+    .workContainer {
+        flex: 1; /* Each container takes up equal width */
+        position: relative;
+        overflow: hidden; /* Ensure overflow content is hidden */
+		margin:10px;
+    }
+    .workImage {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.workOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 3, 1, 0.5); /* Semi-transparent black background */
+  color: white;
+  padding: 20px;
+  transition: opacity 0.3s ease; /* Smooth transition effect */
+}
+.workOverlay {
+  opacity: 0;
+}
 
 
+@media screen and (min-width: 801px) {
+  .workContainer:hover .workOverlay {
+    opacity: 1;
+  }
+}
 
+/* Always show overlay on screens 800px or below */
+@media screen and (max-width: 800px) {
+  .workOverlay {
+    opacity: 1;
+  }
+}
 
 
 
 
 @media screen and (max-width: 800px) {
-
-	
-#headerDiv {
-		display:none;
-}
-	
-.topnav .mainBar{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background:white;
-	box-shadow: 0px 1px 2px gray;
-	z-index: 3;
-}
-	
-.topnav .menuContent{
-	display: none;
-	flex-direction: column;
-	box-shadow: 0px 1px 2px gray;
-}	
   
-.topnav .menuContent a{
-text-align:left;
-}
+  #secondaryLogo {
 
-#myTopnav{
-	position:fixed;
-	display: flex;
-	flex-direction: column;
+    height: 20px;
+    vertical-align: middle;
+	margin-left: 20px;
+	margin-top:0px;
 }
-
-  .topnav.responsive {
-  background:white;}
   
   
-  .topnav.responsive .menuContent{
-	/* float:none; */
-    display: flex;
-	align-items: flex-start;
-
+    .workRow {
+    flex-direction: column; /* Change flex direction to column for smaller screens */
+  }
+  
+  
+  
+  .box {
+    flex-basis: 100%;
   }
 
-.topnav .mainBar .icon {
-	display:block;
-}
+  .topnav .mainBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    box-shadow: 0px 1px 2px gray;
+    z-index: 3;
+  }
 
+  .topnav .menuContent {
+    display: none;
+    flex-direction: column;
+    box-shadow: 0px 1px 2px gray;
+  }
 
-}
+  .topnav .menuContent a {
+    text-align: left;
+  }
 
+  #myTopnav {
+    position: fixed;
+    flex-direction: column;
+  }
 
-@media screen and (max-width: 900px) {
-	 .box {
-  flex-basis: 100%; /* Set initial width to 100% (full width) */
-  
-}
+  .topnav.responsive {
+    background: white;
+  }
+
+  .topnav.responsive .menuContent {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .topnav .mainBar .icon {
+    display: block;
+  }
 }

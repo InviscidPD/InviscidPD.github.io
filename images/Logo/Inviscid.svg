@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="144.34508"
+   height="22.645664"
+   version="1.1"
+   id="svg5006"
+   sodipodi:docname="Inviscid.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata5010">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview5008"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="464"
+     inkscape:cy="-49.5"
+     inkscape:window-x="213"
+     inkscape:window-y="1072"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g5004"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid13218"
+       originx="-299.00568"
+       originy="-924.10109"
+       spacingy="1"
+       spacingx="1"
+       units="px"
+       visible="false" />
+  </sodipodi:namedview>
+  <desc
+     id="desc4815">C:\Users\Jason Zhang\Desktop\Synchronized Folder\Inviscid Group\Branding\Working Preference\LOGO.DXF - scale = 1.000000, origin = (0.000000, 0.000000), method = manual</desc>
+  <defs
+     id="defs4830">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         style="stroke:#000000;stroke-width:0.5"
+         id="path4817"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <pattern
+       height="8"
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path4820" />
+      <path
+         d="M6 2 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path4822" />
+      <path
+         d="M4 0 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path4824" />
+    </pattern>
+    <symbol
+       id="*Model_Space" />
+    <symbol
+       id="*Paper_Space" />
+    <symbol
+       id="*Paper_Space0" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="0"
+     id="g5004"
+     transform="translate(-299.00568,-300.71101)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot13200"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion13202"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Agency FB';-inkscape-font-specification:'Agency FB'"><rect
+           id="rect13204"
+           width="728.15668"
+           height="156.39394"
+           x="62.221241"
+           y="809.73181"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Agency FB';-inkscape-font-specification:'Agency FB'" /></flowRegion><flowPara
+         id="flowPara13206" /></flowRoot>
+    <g
+       aria-label="INVISCID "
+       transform="matrix(0.23365964,0,0,0.23365964,268.1191,105.29767)"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot13208">
+      <path
+         d="M 146.65885,933.10981 H 132.1862 V 836.3162 h 14.47265 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px"
+         id="path4781"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 244.21383,933.10981 h -12.67904 l -23.19336,-60.92122 q 0.92774,4.45313 0.92774,6.98893 v 53.93229 H 195.1676 V 836.3162 h 12.67904 L 231.04,896.00044 q -0.92774,-4.45313 -0.92774,-6.98893 V 836.3162 h 14.10157 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px"
+         id="path4783"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 340.46997,836.3162 -18.55469,96.91731 h -14.4108 L 289.01164,836.3162 h 14.5345 l 10.82357,66.36393 q 0.1237,2.84505 0.37109,8.28776 -0.0618,-2.84506 0.3711,-8.28776 l 10.88541,-66.36393 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px"
+         id="path4785"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 399.92599,933.10981 H 385.45333 V 836.3162 h 14.47266 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px"
+         id="path4787"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 494.82146,924.26541 q 0,8.8444 -8.78255,8.8444 h -29.13086 q -8.7207,0 -8.7207,-8.8444 V 901.19575 H 462.66 v 19.72982 h 17.6888 V 901.93794 L 451.34164,874.477 q -3.15429,-3.0306 -3.15429,-7.73112 v -21.52344 q 0,-8.90624 8.7207,-8.90624 h 29.13086 q 8.78255,0 8.78255,8.78255 v 21.64713 H 480.3488 V 848.50044 H 462.66 v 17.50325 l 29.00716,27.33724 q 3.1543,2.96875 3.1543,7.85482 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px"
+         id="path4789"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 590.45911,924.26541 q 0,8.8444 -8.84441,8.8444 h -30.18229 q -8.597,0 -8.597,-8.8444 v -79.04297 q 0,-8.90624 8.597,-8.90624 h 30.18229 q 8.84441,0 8.84441,8.90624 v 22.63672 H 576.0483 v -19.11132 h -18.74024 v 71.93033 h 18.74024 v -20.3483 h 14.41081 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px"
+         id="path4791"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 653.19312,933.10981 H 638.72047 V 836.3162 h 14.47265 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px"
+         id="path4793"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 749.94405,914.86437 q 0,8.53516 -5.07161,13.42122 -5.07162,4.82422 -13.66862,4.82422 H 701.70186 V 836.3162 h 29.50196 q 8.597,0 13.66862,4.94791 5.07161,4.88607 5.07161,13.42123 z m -14.5345,-2.41211 v -55.60221 q 0,-8.10221 -8.47331,-8.10221 h -10.76172 v 71.93033 h 10.39062 q 8.84441,0 8.84441,-8.22591 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:126.667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:36.5101px"
+         id="path4795"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

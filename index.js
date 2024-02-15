@@ -18,6 +18,56 @@ $(window).on("scroll", function() {
 });
 
 
+window.addEventListener('scroll', function() {
+  let offset = window.pageYOffset;
+  let maxOffset = window.innerHeight*0.1;
+  let parallaxContainer = document.querySelector('.parallax-container');
+  
+  // Add conditions here
+  if (offset < maxOffset ) { // Example condition: only apply parallax effect if scroll position is less than 500 pixels
+    parallaxContainer.style.backgroundPositionY = -offset * 2 + 'px';
+  } else {
+    // Reset background position or do something else when condition is not met
+    parallaxContainer.style.backgroundPositionY = -maxOffset * 2 + 'px';
+  }
+});
+
+
+function setBackgroundSize() {
+    let viewportHeight = window.innerHeight;
+    let viewportWidth = window.innerWidth;
+    let backgroundSize; // Declare backgroundSize variable here
+	let heightRatio = 0.7;
+
+    if (viewportWidth > (viewportHeight*heightRatio/3*8)) {
+        backgroundSize = viewportWidth + 'px' + ' auto'; // Note the space before 'auto'
+    } else {
+        backgroundSize = 'auto ' + (viewportHeight * heightRatio) + 'px';
+    }
+    
+    document.querySelector('.parallax-container').style.backgroundSize = backgroundSize;
+}
+
+// Call setBackgroundSize() at the beginning of the page loading
+setBackgroundSize();
+
+// Update background size on window resize
+window.addEventListener('resize', setBackgroundSize);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
