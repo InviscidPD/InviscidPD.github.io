@@ -157,15 +157,17 @@ h2 {
 header {
   position: relative;
   display: flex;
+  flex-direction:column;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 60vh;
   transform-style: preserve-3d;
   z-index: -1;
 }
 
 .background {
-  transform: translateZ(-10px) scale(2);
+  transform: translateZ(-10px) scale(3);
+
 }
 
 .foreground {
@@ -175,8 +177,7 @@ header {
 .background,
 .foreground {
   position: absolute;
-  height: 100%;
-  width: 100%;
+height:60vh;
   object-fit: cover;
   z-index: -1;
 }
