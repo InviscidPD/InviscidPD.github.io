@@ -13,6 +13,7 @@ body {
 	font-weight: 400;
 	font-style: normal;
 	background-color:white;
+	height:100%;
 
 }
 
@@ -122,27 +123,20 @@ h2 {
 } */
 
 
-.parallax-container {
-/*     max-width:95vw;
-			    /* background-image: url("background.JPG"); */
-				/* background-position: center; */
-				/* background-repeat:no-repeat; */
-				/* background-size:cover; */
-/* height:550px;
-display: flex;
-width:100vw;  */
+/* .parallax-container {
 
-/*testing code*/
+
+
   background-image: url('images/AiImageWide2.jpg');
   background-size: 100vw;
   background-attachment: fixed;
   background-position: center top;
   position: relative; 
-  height:60vh;  /*change to ratio when needed*/
-				
-}
+  height:60vh; 
+} 
+*/
 
-.parallax-content {
+/* .parallax-content {
   
   position: absolute;
   top: 50%;
@@ -151,7 +145,43 @@ width:100vw;  */
   color: white;
   text-align: center;
   
+} */
+
+.wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
 }
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.background {
+  transform: translateZ(-10px) scale(2);
+}
+
+.foreground {
+  transform: translateZ(-5px) scale(1.5);
+}
+
+.background,
+.foreground {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+
 
 
 #about {
@@ -497,13 +527,14 @@ button:focus {
 }
 
 .topnav .menuContent{
+
 	display:flex;
 	flex-direction:row;
 	justify-content:flex-end;
 	color: black;
 	align-items: center;
 
-	  padding-bottom:3px;
+	 padding-bottom:3px;
 }
 
 
@@ -592,6 +623,7 @@ button:focus {
         display: flex;
         width: 100%;
         height:100%;
+		background:white;
     }
     .workContainer {
         flex: 1; /* Each container takes up equal width */
@@ -688,6 +720,7 @@ button:focus {
   .topnav.responsive .menuContent {
     display: flex;
     align-items: flex-start;
+
   }
 
   .topnav .mainBar .icon {
