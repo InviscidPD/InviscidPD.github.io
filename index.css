@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100,300&display=swap');
+
+
+
 
 body {
     width:100vw;
@@ -26,6 +29,23 @@ h2 {
 /* 	max-width: 1800px; */
 	margin:0 auto;
 	top:0;
+}
+
+.sectionTitle
+{
+display:flex;
+flex-direction:column;
+justify-content:flex-end;
+padding-left:20px;
+background:white;
+height:100px;
+}
+
+.sectionTitle h1
+{
+	color:#bfbfbf;
+	font-size:60px;
+	margin:0;
 }
 
 
@@ -99,53 +119,13 @@ h2 {
 	margin-top:0px;
 }
 
-#serviceIcon {
+.serviceIcon {
 
     height: 60px;
 	width: 100%;
     margin:0 auto;
 }
 
-/* #topSplash {
-	position: relative;
-    top: 0;
-	bottom:0;
-    width: 100vw;
-	z-index:0;
-	overflow: hidden;
-	
-  background-image: url("images/AiImageWide2.jpg");
-  background-color: #cccccc;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 100vw;
-  position: relative;
-} */
-
-
-/* .parallax-container {
-
-
-
-  background-image: url('images/AiImageWide2.jpg');
-  background-size: 100vw;
-  background-attachment: fixed;
-  background-position: center top;
-  position: relative; 
-  height:60vh; 
-} 
-*/
-
-/* .parallax-content {
-  
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center;
-  
-} */
 
 .wrapper {
   height: 100vh;
@@ -154,19 +134,20 @@ h2 {
   perspective: 10px;
 }
 
-header {
+.parallaxWindow {
   position: relative;
   display: flex;
   flex-direction:column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  height: 60vh;
+  height: 50vh;
   transform-style: preserve-3d;
   z-index: -1;
+  perspective:1000px;
 }
 
 .background {
-  transform: translateZ(-10px) scale(3);
+  transform: translateZ(-20px) translateY(-300px) scale(3.1);
 
 }
 
@@ -177,59 +158,13 @@ header {
 .background,
 .foreground {
   position: absolute;
-height:60vh;
+  width:100vw;
   object-fit: cover;
   z-index: -1;
 }
 
 
 
-
-#about {
-	width:100vw;
-    margin:0 auto;
-    display:flex;
-    flex-direction:column;
-    justify-content: left;
-	padding-top:100px;
-	padding-left:40px;
-
-
-
-}
-#about h1 {
-    font-size:30px;
-	color:white;
-	padding-bottom:10px;
-    word-wrap:break-word;
-}
-#about table {
-    width:70%;
-    margin-top:4vh;
-
-}
-#about table tr td {
-    width:20% !important;
-    text-align:left;
-}
-
-
-.sectionTitle {
-	display: flex;
-	height:55px;
-	background-color: light-gray ;
-	margin-top:0;
-	flex-direction:column;
-	justify-content: flex-end;
-}
-
-.sectionTitle h3{
-	font-size:30px;
-	padding-left:30px;
-	padding-bottom:4px;
-	color:rgba(169, 172, 182);
-	margin:0;
-}
 
 .social {
     color:rgb(255, 44, 90);
@@ -275,11 +210,7 @@ height:60vh;
     background-repeat:no-repeat;
 }
 
-/* #work { */
-    /* width:100%; */
-    /* padding:5vh 50px; */
-    /* font-weight:bold; */
-/* } */
+
 
 .pageSection {
 	width:100vw;
@@ -429,63 +360,6 @@ button:focus {
     background: rgba(0, 0, 0,0.8); 
 }
 
-@media screen and (max-width: 800px){
-	
-
-
-    #about {
-        width:92% !important;
-        height:25vh;
-        padding-top:20vh !important;
-        text-align:center;
-        padding:0px 4%;
-
-    }
-    #about table {
-        width:94%;
-        margin-top:6vh;
-    }
-    #about table tr td {
-        text-align:center;
-		
-    }
-    .btn_one {
-    padding:6px 10px;
-    width:280px;
-    margin:4vh auto;
-    box-shadow:0px 0px 3px rgba(255, 0, 0, 0.8);
-    background:red;;
-    color:#fff;
-    }
-    .btn_one:hover {
-        box-shadow:0px 10px 40px rgba(255, 0, 0, 0.8);
-        cursor:pointer;
-    }
-    #contact table tr td {
-        width:94%;
-        display:block;
-    }
-    #inner_table tr td{
-        padding:10px 0px !important;
-    }
-    #contact form input {
-        width:90%;
-    }
-    #contact form textarea {
-        width:90%;
-    }
-    #services h1 {
-        width:19%;
-    }
-    #bio h1 {
-        width:25%;
-    }
-    #contact h1 {
-        width:33%;
-    }
-
-}
-
 /* below covers nav bar */
 
 .topnav {
@@ -575,6 +449,7 @@ button:focus {
 
 .panelContainer {
   display: flex; /* Use flexbox layout */
+  box-sizing:border-box;
   flex-wrap: wrap; /* Allow wrapping if screen size is 600px or more */
   margin:0 auto;
   /* max-width: 1800px;*/
@@ -620,22 +495,28 @@ button:focus {
   
   /*work section*/
  
+ #work{
+	 background-color:white;
+ }
+ 
     .workRow {
         display: flex;
-        width: 100%;
-        height:100%;
-		background:white;
+		box-sizing:border-box;
+        width: 100vw;
+		padding:10px;
+
     }
     .workContainer {
-        flex: 1; /* Each container takes up equal width */
+        flex-basis: 33%;
         position: relative;
         overflow: hidden; /* Ensure overflow content is hidden */
-		margin:10px;
+		margin:20px;
     }
     .workImage {
         width: 100%;
         height: 100%;
         object-fit: cover;
+		border:0;
     }
 
 .workOverlay {
@@ -647,31 +528,72 @@ button:focus {
   color: white;
   padding: 20px;
   transition: opacity 0.3s ease; /* Smooth transition effect */
-}
-.workOverlay {
   opacity: 0;
 }
 
 
-@media screen and (min-width: 801px) {
   .workContainer:hover .workOverlay {
     opacity: 1;
   }
-}
 
-/* Always show overlay on screens 800px or below */
+
+
+
+
+
 @media screen and (max-width: 800px) {
   .workOverlay {
     opacity: 1;
   }
+
+
+	
+.background,
+.foreground {
+
+  height:60vh;
+
 }
 
 
+    .btn_one {
+    padding:6px 10px;
+    width:280px;
+    margin:4vh auto;
+    box-shadow:0px 0px 3px rgba(255, 0, 0, 0.8);
+    background:red;;
+    color:#fff;
+    }
+    .btn_one:hover {
+        box-shadow:0px 10px 40px rgba(255, 0, 0, 0.8);
+        cursor:pointer;
+    }
+    #contact table tr td {
+        width:94%;
+        display:block;
+    }
+    #inner_table tr td{
+        padding:10px 0px !important;
+    }
+    #contact form input {
+        width:90%;
+    }
+    #contact form textarea {
+        width:90%;
+    }
+    #services h1 {
+        width:19%;
+    }
+    #bio h1 {
+        width:25%;
+    }
+    #contact h1 {
+        width:33%;
+    }
 
 
-@media screen and (max-width: 800px) {
-  
-  #secondaryLogo {
+ 
+#secondaryLogo {
 
     height: 20px;
     vertical-align: middle;
@@ -680,8 +602,12 @@ button:focus {
 }
   
   
-    .workRow {
-    flex-direction: column; /* Change flex direction to column for smaller screens */
+  .workRow{
+	  flex-direction:column;
+  }
+  
+  .workContainer {
+    flex-basis:100%
   }
   
   
@@ -721,6 +647,7 @@ button:focus {
   .topnav.responsive .menuContent {
     display: flex;
     align-items: flex-start;
+	background:white;
 
   }
 
